@@ -1,4 +1,5 @@
 import { View, StyleSheet, Button } from "react-native";
+import { TouchableOpacity } from "react-native";
 
 export default function Home({ navigation }) {
     return (
