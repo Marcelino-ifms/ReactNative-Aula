@@ -1,6 +1,6 @@
-import { useState } from "react";
-import { Card, TextInput } from "react-native-paper";
-import { SafeAreaView } from "react-native";
+import { Button, Card, TextInput } from 'react-native-paper';
+import { useState } from 'react';
+import { SafeAreaView, StyleSheet, Image } from 'react-native';
 import Artista from "../services/Artista";
 
 

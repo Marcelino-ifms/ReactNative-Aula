@@ -1,7 +1,8 @@
-import { Text, StyleSheet, SafeAreaView, View } from "react-native";
+import { Text, StyleSheet, SafeAreaView } from "react-native";
 import { Card } from 'react-native-paper';
 import { useState, useEffect } from "react";
 import Artista from "../services/Artista";
+
 export default function Consultar() {
     const [artistas, setArtistas] = useState([]);
 
